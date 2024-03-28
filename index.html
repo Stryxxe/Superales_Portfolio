@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css"/>
+    
+</head><!-- <End of head> -->
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">  
+            <img src="./assets/logo.svg" alt="logo">
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul><!-- <End of nav-links> -->
+        </div>
+    </nav><!-- <End of desktop-nav> -->
+    <nav id="hamburger-nav">
+        <div class="logo"> <img src="./assets/logo.svg" alt="logo"> </div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div><!-- <End of hamburger-icon> -->
+            <div class="menu-links">
+                <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div><!-- <End of menu-links> -->
+        </div><!-- <End of hamburger-menu> -->
+    </nav><!-- <End of hamburger-nav> -->
+        <hr id="h">
+    <section id="profile">
+        <div class="wrapper-main "></div>
+        <div class="side-text">
+            <span>YR 2024 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LARA AUDREY PORTFOLIO </span> 
+        </div><!-- <End of side-text> -->
+        <div class="section_pic1-container">
+            <img src="./assets/profile1.svg" alt="Lara Audrey profile picture">   
+        </div><!-- <End of section_pic-container> -->
+        <div class="section_text">
+            <h1 class="title">Lara Audrey<br> Superales</h1>
+            <p class="section_text_p1">Web Developer</p>
+            <p class="section_text_p2">Let's create your projects together!</p>
+        <div class="btn-container">
+            <button class="btn btn-DCSV" onclick="window.open('./assets/Superales CV Resume.pdf')">Download CV</button>
+            <button class="btn btn-contact" onclick="location.href='./#contact'">Contact Info</button>
+        </div><!-- <End of btn-container> -->    
+            <div id="socials-container">
+               <img
+                    src="./assets/facebook-icon.png"
+                    alt="My Facebook profile"
+                    class="icon"
+                    onclick="location.href='https://www.facebook.com/profile.php?id=100005872877029'"
+                />              
+                    <img
+                        src="./assets/twitter-icon.png"
+                        alt="My Tweeter profile"
+                        class="icon"
+                        onclick="location.href='https://twitter.com/MsMunchkinPump'"
+                    />
+                    <img
+                        src="./assets/instagram-icon.png"
+                        alt="My Instagram profile"
+                        class="icon"
+                        onclick="location.href='https://www.instagram.com/larudzzz/?hl=en'"
+                    />
+                    <img
+                        src="./assets/linkedin-icon.png"
+                        alt="My LinkedIn profile"
+                        class="icon"
+                        onclick="location.href='https://www.linkedin.com/in/superales-lara-b-9738b5251/'"
+                    />
+                    <img
+                        src="./assets/github-icon.png"
+                        alt="My Github profile"
+                        class="icon"
+                        onclick="location.href='https://github.com/Odreeeiiii'"
+                    />
+                     
+        </div><!-- <End of socials_container> -->
+        </div><!-- <End of section-text> -->
+    </section><!-- <End of profile> -->
+    <section id="about">
+        <p class="section_subtext_p1">Get To Know More</p>
+        <h1 class="title_header">About Me</h1>
+        <div class="wrapper-main .index-about-flex">
+        <div class="section_pic2-container">
+            <img src="./assets/profile2.svg" alt="Lara Audrey profile picture">   
+        </div><!-- <End of section_pic-container> -->
+        
+        <div class="about_text">
+            <p>I'm Lara Audrey B. Superales, a versatile professional with expertise in web design, graphic design, and social media management. I hold a Bachelor of Science in Information Technology from the University of Southeastern Philippines. I am driven to excel in all I do, enjoy a challenge, and am passionate about using technology to propel business expansion. I am an excellent asset in any fast-paced professional situation because of my proactive approach and meticulous attention to detail.</p>
+        
+            <div class="skills">
+                <div class="skill">
+                    <div class="skill-name">Web Design</div>
+                    <div class="skill-bar">
+                        <div class="skill-per" per="90%" style="max-width:90%"></div>
+                    </div>
+                </div>
+    
+                <div class="skill">
+                    <div class="skill-name">Photoshop & Illustration</div>
+                    <div class="skill-bar">
+                        <div class="skill-per" per="80%" style="max-width:80%"></div>
+                    </div>
+                </div>
+    
+                <div class="skill">
+                    <div class="skill-name">Web Program</div>
+                    <div class="skill-bar">
+                        <div class="skill-per" per="85%" style="max-width:85%"></div>
+                    </div>
+                </div>
+            </div><!-- <End of skills> -->
+            </div> <!-- <End of about-text> -->   
+        </div>  <!-- <End of wrapper-main index-about-flex> -->   
+    </section> <!-- <End of about> -->  
+
+    <section id="projects">
+        <p class="section_subtext_p1">Explore My Recent</p>
+        <h1 class="title_header">Projects</h1>
+            <div class="project-details-container">
+           
+                <div class="details-container">
+                    <div class="article-container">
+                        <img 
+                            src="./assets/Project1.svg" 
+                            alt="Project 1"
+                            class="project-img">
+                    </div><!-- <End of article-container> --> 
+                    <h2 class="project-title">ScholarPack</h2>
+                    <p><br>Discover the perfect blend of style and functionality at our online bag boutique. Explore a curated selection of trendy and versatile bags designed to suit every occasion and elevate your everyday ensemble.</p>
+                    <div class="check-more">   
+                        <a href="https://github.com/Odreeeiiii" id="Check it out"><b><u>Check it out</u></b></a>
+                    </div><!-- <End of check-more> --> 
+                </div><!-- <End of details-container> -->  
+                
+                <div class="details-container">
+                    <div class="article-container">
+                        <img 
+                            src="./assets/Project2.svg" 
+                            alt="Project 2"
+                            class="project-img">
+                    </div><!-- <End of article-container> --> 
+                    <h2 class="project-title">GlamFinesse</h2>
+                    <p><br>Explore our online cosmetics store to satisfy your beauty needs. Discover an alluring selection of premium cosmetics, ranging from eyeshadows to lipsticks, carefully chosen to accentuate your individuality and glow.</p>
+                    <div class="check-more">   
+                        <a href="https://github.com/Odreeeiiii" id="Check it out"><b><u>Check it out</u></b></a>
+                    </div><!-- <End of check-more> --> 
+                </div><!-- <End of details-container> --> 
+    
+                <div class="details-container">
+                    <div class="article-container">
+                        <img 
+                            src="./assets/Project3.svg" 
+                            alt="Project 3"
+                            class="project-img">
+                    </div><!-- <End of article-container> --> 
+                    <h2 class="project-title">StyleBoutique</h2>
+                    <p><br>Step into a world of fashion with our online clothing boutique. Explore an exquisite collection of trendy and timeless garments, meticulously curated to elevate your wardrobe and inspire your personal style journey.</p>
+                    <div class="check-more">   
+                        <a href="https://github.com/Odreeeiiii" id="Check it out"><b><u>Check it out</u></b></a>
+                    </div><!-- <End of check-more> --> 
+                </div><!-- <End of details-container> --> 
+            </div>
+    </section><!-- <End of projects> -->   
+
+    <section id="contact">
+        <p class="section_subtext_p1">Get In Touch</p>
+        <h1 class="title_header">Contact Me</h1>
+        <div class="wrapper-main .index-about-flex">
+        <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <div class="contact-left-title">
+                    <h3>ONLINE INQUIRY</h3>
+                    <hr>
+                </div>
+                <input type="hidden" name="access_key" value="e6410559-7f37-41c0-b89f-2b4fdbd89bf3">
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                <input type="text" name="email" placeholder="Your Email" class="contact-inputs" required>
+                <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                <div class="btn-container">
+                    <button class="btn btn-DCSV">Submit</button>
+                </div><!-- <End of btn-container> -->
+                
+            </form>
+            <div class="contact-right">
+                <div class="contact-right-title">
+                    <h3>CONTACT DETAILS</h3>
+                    <hr>
+                </div>
+                    <span>laraudreysuperales@gmail.com</span><br><br>
+                    <span>09068382202</span>
+                    <div id="contact-socials-container">
+                        <img
+                             src="./assets/facebook-icon.png"
+                             alt="My Facebook profile"
+                             class="icon"
+                             onclick="location.href='https://www.facebook.com/profile.php?id=100005872877029'"
+                         />              
+                             <img
+                                 src="./assets/twitter-icon.png"
+                                 alt="My Tweeter profile"
+                                 class="icon"
+                                 onclick="location.href='https://twitter.com/MsMunchkinPump'"
+                             />
+                             <img
+                                 src="./assets/instagram-icon.png"
+                                 alt="My Instagram profile"
+                                 class="icon"
+                                 onclick="location.href='https://www.instagram.com/larudzzz/?hl=en'"
+                             />
+                             <img
+                                 src="./assets/linkedin-icon.png"
+                                 alt="My LinkedIn profile"
+                                 class="icon"
+                                 onclick="location.href='https://www.linkedin.com/in/superales-lara-b-9738b5251/'"
+                             />
+                             <img
+                                 src="./assets/github-icon.png"
+                                 alt="My Github profile"
+                                 class="icon"
+                                 onclick="location.href='https://github.com/Odreeeiiii'"
+                             />
+                              
+                 </div><!-- <End of socials_container> -->
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul><!-- <End of nav-links> -->
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024. Lara Audrey Superales. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body><!-- <End of body> -->
+</html>
